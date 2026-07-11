@@ -1104,79 +1104,6 @@ body.dark-theme .cart-slider-footer {
 
 
 
-/*------------ MEDIA QUERYS FOR LAPTOP SCREEN ------------ */
-
-@media (min-width: 992px) and (max-width: 1280px){
-    .nav-list-element-poppup {
-        visibility: hidden;
-    }
-
-    .cart-slider{
-        margin-top: 4.5rem;
-        height: 89%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .nav-element {
-        height: 10vh;
-    }
-
-    .nav-list {
-        height: 6vh;
-    }
-
-    .color-mode {
-        height: 1.6rem;
-        width: 1.6rem;
-    }
-
-    .color-mode i {
-        font-size: .8rem;
-    }
-
-    .hero-section {
-        margin-top: 5.5rem;
-    }
-
-    .image-btn-container {
-        top: 1.3rem;
-    }
-
-    .slider-btn {
-        padding: 90px 5px;
-        font-size: 3.5rem;
-    }
-
-    .image-item img {
-        min-width: 100%;
-        height: 26rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .login-section p {
-        display: none;
-    }
-
-    .product-section {
-        margin-top: -11.5rem;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .border:hover {
-        border: none;
-    }
-
-    .nav-list-element-poppup {
-        display: none;
-    }
-
-    .cart-slider{
-        margin-top: 3.7rem;
-        height: 91%;
-    }
-}
 
 /*------------ MEDIA QUERYS FOR TABLET SCREEN ------------*/
 
@@ -1219,7 +1146,7 @@ body.dark-theme .cart-slider-footer {
         height: 6vh;
     }
 
-    .nav-list-element-bars i{
+    .nav-list-element-bars i {
         font-size: 1.4rem;
     }
 
@@ -1228,7 +1155,7 @@ body.dark-theme .cart-slider-footer {
         margin-top: 5.55rem;
     }
 
-    .cart-slider{
+    .cart-slider {
         margin-top: 3.35rem;
         width: 19rem;
         height: 92%;
@@ -1256,7 +1183,7 @@ body.dark-theme .cart-slider-footer {
 
     .product-section {
         margin: 0 4rem;
-        margin-top: -13rem;
+        margin-top: -17.5rem;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem 4rem;
     }
@@ -1274,12 +1201,12 @@ body.dark-theme .cart-slider-footer {
     }
 
     .color-mode {
-        height: 1.3rem;
-        width: 1.3rem;
+        height: 1.7rem;
+        width: 1.7rem;
     }
 
     .color-mode i {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .box-size {
@@ -1303,13 +1230,14 @@ body.dark-theme .cart-slider-footer {
     }
 
     .nav-list-element-bars i {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .nav-list-element-poppup {
         margin-top: 4.45rem;
     }
-    .cart-slider{
+
+    .cart-slider {
         margin-top: 2.6rem;
         width: 18rem;
         height: 94%;
@@ -1340,7 +1268,7 @@ body.dark-theme .cart-slider-footer {
     }
 
     .product-section {
-        margin-top: -14.3rem;
+        margin-top: -19rem;
         gap: 1rem;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1355,4 +1283,78 @@ body.dark-theme .cart-slider-footer {
         font-size: 0.7rem;
         height: 2rem;
     }
+
+    .foot-panel4{
+        height: 6.5rem;
+    }
+
+    .copy-right span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 376px) {
+    .search-input {
+        height: 5.5vh;
+        width: 3rem;
+    }
+
+    .nav-list-element-bars {
+        width: 1.2rem;
+    }
+
+    .nav-list-element-bars i {
+        font-size: 1.3rem;
+    }
+
+    .color-mode {
+        height: 1.7rem;
+        width: 1.7rem;
+    }
+
+    .color-mode i {
+        font-size: 0.9rem;
+    }
+
+    .nav-list-element-poppup {
+        margin-top: 5rem;
+    }
+
+    .slider-btn {
+        padding: 50px 5px;
+        font-size: 3.5rem;
+    }
+
+    .image-item img {
+        min-width: 100%;
+        height: 15rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .product-section {
+        margin-top: -21.5rem;
+        gap: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-logo img {
+        width: 5rem;
+    }
+
+    .foot-panel4{
+        height: 6.5rem;
+    }
+
+    .copy-right span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }

@@ -1104,7 +1104,7 @@ body.dark-theme .cart-slider-footer {
 
 
 
-/*------------ MEDIA QUERYS FOR LAPTOP SCREEN ------------ */
+/* LAPTOP / LARGE SCREENS (1280px to 992px)  */
 
 @media (min-width: 992px) and (max-width: 1280px) {
     .nav-list-element-poppup {
@@ -1115,8 +1115,20 @@ body.dark-theme .cart-slider-footer {
         margin-top: 4.5rem;
         height: 89%;
     }
+
+    .slider-btn {
+        padding: 90px 5px;
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+
+    .product-section {
+        margin-top: -24.3rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
+/*  SMALL LAPTOTS / PORTRAIT TABLETS (max-width: 992px)  */
 @media screen and (max-width: 992px) {
     .nav-element {
         height: 10vh;
@@ -1146,6 +1158,7 @@ body.dark-theme .cart-slider-footer {
     .slider-btn {
         padding: 90px 5px;
         font-size: 3.5rem;
+        margin-top: 3.4rem;
     }
 
     .image-item img {
@@ -1160,7 +1173,7 @@ body.dark-theme .cart-slider-footer {
     }
 
     .product-section {
-        margin-top: -16rem;
+        margin-top: -19rem;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -1178,7 +1191,9 @@ body.dark-theme .cart-slider-footer {
     }
 }
 
-/*------------ MEDIA QUERYS FOR TABLET SCREEN ------------*/
+
+
+/*  TABLETS / LARGE PHONES (max-width: 768px)  */
 
 @media screen and (max-width: 768px) {
     .nav-search {
@@ -1197,14 +1212,8 @@ body.dark-theme .cart-slider-footer {
         height: 6vh;
     }
 
-    .location {
-        display: none;
-    }
-
-    .login-section {
-        display: none;
-    }
-
+    .location,
+    .login-section,
     .hide {
         display: none;
     }
@@ -1234,13 +1243,10 @@ body.dark-theme .cart-slider-footer {
         height: 92%;
     }
 
-    .image-btn-container {
-        top: 1rem;
-    }
-
     .slider-btn {
         padding: 80px 5px;
         font-size: 3.5rem;
+        margin-top: 2.8rem;
     }
 
     .image-item img {
@@ -1256,20 +1262,21 @@ body.dark-theme .cart-slider-footer {
 
     .product-section {
         margin: 0 4rem;
-        margin-top: -17.5rem;
+        margin-top: -23rem;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem 4rem;
     }
 }
 
-/*------------ MEDIA QUERYS FOR MOBILE PHONE SCREEN ------------*/
+
+
+/*  MOBILE PHONES (max-width: 576px)  */
 
 @media screen and (max-width: 576px) {
-    .nav-element {
-        height: 7vh;
-    }
 
-    .nav-search {
+    .nav-element,
+    .nav-search,
+    .box-size {
         height: 7vh;
     }
 
@@ -1282,18 +1289,11 @@ body.dark-theme .cart-slider-footer {
         font-size: 0.9rem;
     }
 
-    .box-size {
-        height: 7vh;
-    }
-
     .nav-logo img {
         width: 6rem;
     }
 
-    .search-input {
-        height: 5.5vh;
-    }
-
+    .search-input,
     .search-icon {
         height: 5.5vh;
     }
@@ -1331,19 +1331,16 @@ body.dark-theme .cart-slider-footer {
         background-size: cover;
     }
 
-    .image-btn-container {
-        top: 1rem;
-    }
-
     .slider-btn {
         padding: 70px 5px;
         font-size: 3.5rem;
+        margin-top: 2.3rem;
     }
 
     .product-section {
-        margin-top: -14.5rem;
+        margin-top: -27rem;
         gap: 1rem;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .foot-panel2 ul a {
@@ -1370,29 +1367,17 @@ body.dark-theme .cart-slider-footer {
 }
 
 
-/* ------------ MEDIA QUERYS FOR MOBILE PHONE SCREEN ------------ */
 
-@media screen and (max-width: 480px) {
+/*  EXTRA SMALL PHONES (max-width: 414px)   */
+
+@media screen and (max-width: 414px) {
     .search-input {
         height: 5.5vh;
-        width: 3rem;
+        width: 4rem;
     }
 
     .nav-list-element-bars {
         width: 1.2rem;
-    }
-
-    .nav-list-element-bars i {
-        font-size: 1.3rem;
-    }
-
-    .color-mode {
-        height: 1.7rem;
-        width: 1.7rem;
-    }
-
-    .color-mode i {
-        font-size: 0.9rem;
     }
 
     .nav-list-element-poppup {
@@ -1400,38 +1385,27 @@ body.dark-theme .cart-slider-footer {
     }
 
     .slider-btn {
-        padding: 50px 5px;
-        font-size: 3.5rem;
+        padding: 40px 5px;
+        font-size: 2.5rem;
         margin-top: 2.3rem;
     }
 
     .image-item img {
         min-width: 100%;
-        height: 15rem;
+        height: 14rem;
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 2.3rem;
     }
 
     .product-section {
-        margin-top: -31.3rem;
-        gap: 1rem;
-        grid-template-columns: repeat(1, 1fr);
+        margin-top: -34.5rem;
+        padding: 1rem;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
     }
 
     .nav-logo img {
-        width: 5rem;
+        width: 4.5rem;
     }
-
-    .foot-panel4 {
-        height: 6.5rem;
-    }
-
-    .copy-right span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
 }

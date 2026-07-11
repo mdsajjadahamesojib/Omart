@@ -1373,7 +1373,7 @@ body.dark-theme .cart-slider-footer {
 /*------------ MEDIA QUERYS FOR MOBILE PHONE SCREEN ------------*/
 
 
-@media only screen and (min-width: 390px) and (max-width: 420px) {
+@media only screen and (min-width: 375px) and (max-width: 420px) {
     .search-input {
         height: 5.5vh;
         width: 3rem;

@@ -1402,7 +1402,7 @@ body.dark-theme .cart-slider-footer {
     .slider-btn {
         padding: 50px 5px;
         font-size: 3.5rem;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 
     .image-item img {
